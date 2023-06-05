@@ -1,4 +1,4 @@
-![App Snapshot](./App-Snapshot.png)
+<img src="./App-Snapshot.png" alt="App Snapshot" width="120" height="200">
 
 # IceFireRocket
 An interesting Mobile Game.
