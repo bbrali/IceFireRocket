@@ -1,4 +1,4 @@
-![App-Snapshot.png](path/to/image.png)
+![App Snapshot](./App-Snapshot.png)
 
 # IceFireRocket
 An interesting Mobile Game.
