@@ -3,7 +3,6 @@ import 'dart:math';
 import 'package:audioplayers/audio_cache.dart';
 import 'ice_fire_rocket_brain.dart';
 
-// Let's create IceFireRocketBrain class' object for being able to tap into it's properties.
 IceFireRocketBrain iceFireRocketBrain = IceFireRocketBrain();
 
 void main() => runApp(IceFireRocket());
@@ -438,8 +437,3 @@ class _GamePageState extends State<GamePage> {
     );
   }
 }
-
-//// ########## NOTE: OUR GAME'S MAIN FUNCTIONALITY IS ALMOST COMPLETE.
-//// ########## WE ONLY NEED TO IMPLEMENT (ICE/FIRE/ROCKET CONDITIONS FOR GOTTI) & SOME DESIGNING AND STYLING.
-
-//// ################ AND WE'LL DO THAT AFTER COMPLETING 2ND COURSE OF 'FLUTTER LEARNING' BY AppBrewery.
