@@ -1,21 +1,18 @@
 class IceFireRocketBrain {
-  // Variables to track players(player1 & player2) positions on board.
+  
   int _player1sPositionOnBoard = 0;
   int _player2sPositionOnBoard = 0;
-  // Variable to check, if the dice is pressed for the 1st time.
+  
   bool _isFirstTimeForPlayer1 = true;
   bool _isFirstTimeForPlayer2 = true;
-  // Variable to keep track, which data(child) of the container was changed.
+
   String _tempVarForPlayer1 = '';
   String _tempVarForPlayer2 = '';
 
-  // variable to keep track turns of both players. (Even ->Player 1's turn. Odd-> Player 2's turn.)
   int _playerTurnTracker = 0;
 
-  // Variable to show, which player's turn it is.
   String _whoseTurnText = 'Player 1\'s Turn';
 
-  // List of 40 numbers(for images->) that each Container on our board will contain.
   List<String> _allItemsOnBoard = [
     '40',
     '39',
@@ -59,7 +56,6 @@ class IceFireRocketBrain {
     '01'
   ];
 
-  //// Let's write getter/setters for our properties.
   int getPlayer1sPositionOnBoard() => _player1sPositionOnBoard;
   void setPlayer1sPositionOnBoard(int value) =>
       _player1sPositionOnBoard = value;
